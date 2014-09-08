@@ -12,6 +12,18 @@
 		31EB9410198AB1AC002DF0BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EB940F198AB1AC002DF0BE /* Images.xcassets */; };
 		31EB9413198AB1AC002DF0BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB9411198AB1AC002DF0BE /* MainMenu.xib */; };
 		31EB941F198AB1AC002DF0BE /* MusicVisualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB941E198AB1AC002DF0BE /* MusicVisualizerTests.m */; };
+		31EB9429198AB7BF002DF0BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB9428198AB7BF002DF0BE /* AVFoundation.framework */; };
+		31EB9430198ABA5F002DF0BE /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB942F198ABA5F002DF0BE /* AppKit.framework */; };
+		31EB9437198ABD0D002DF0BE /* DJRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31EB9435198ABD0D002DF0BE /* DJRootViewController.mm */; };
+		31EB9438198ABD0D002DF0BE /* DJRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31EB9436198ABD0D002DF0BE /* DJRootViewController.xib */; };
+		31EB943C198AC3A9002DF0BE /* AllSheWants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 31EB943B198AC3A9002DF0BE /* AllSheWants.mp3 */; };
+		31EB943E198ACE41002DF0BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB943D198ACE41002DF0BE /* QuartzCore.framework */; };
+		31EB9441198ADDAC002DF0BE /* VisualizerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31EB9440198ADDAC002DF0BE /* VisualizerView.mm */; };
+		31EB9446198AE8A8002DF0BE /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EB9445198AE8A8002DF0BE /* particleTexture.png */; };
+		31EB9449198AECCF002DF0BE /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31EB9447198AECCF002DF0BE /* MeterTable.cpp */; };
+		31EB944C198B2202002DF0BE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB944B198B2202002DF0BE /* Accelerate.framework */; };
+		31EB944E198B24CF002DF0BE /* Truth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 31EB944D198B24CF002DF0BE /* Truth.mp3 */; };
+		31EB9451198C1E11002DF0BE /* noMercy.png in Resources */ = {isa = PBXBuildFile; fileRef = 31EB9450198C1E11002DF0BE /* noMercy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,21 @@
 		31EB9418198AB1AC002DF0BE /* MusicVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB941D198AB1AC002DF0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31EB941E198AB1AC002DF0BE /* MusicVisualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicVisualizerTests.m; sourceTree = "<group>"; };
+		31EB9428198AB7BF002DF0BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		31EB942F198ABA5F002DF0BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31EB9434198ABD0D002DF0BE /* DJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJRootViewController.h; path = ../DJRootViewController.h; sourceTree = "<group>"; };
+		31EB9435198ABD0D002DF0BE /* DJRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJRootViewController.mm; path = ../DJRootViewController.mm; sourceTree = "<group>"; };
+		31EB9436198ABD0D002DF0BE /* DJRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJRootViewController.xib; path = ../DJRootViewController.xib; sourceTree = "<group>"; };
+		31EB943B198AC3A9002DF0BE /* AllSheWants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AllSheWants.mp3; sourceTree = "<group>"; };
+		31EB943D198ACE41002DF0BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		31EB943F198ADDAC002DF0BE /* VisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizerView.h; sourceTree = "<group>"; };
+		31EB9440198ADDAC002DF0BE /* VisualizerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisualizerView.mm; sourceTree = "<group>"; };
+		31EB9445198AE8A8002DF0BE /* particleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleTexture.png; sourceTree = "<group>"; };
+		31EB9447198AECCF002DF0BE /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		31EB9448198AECCF002DF0BE /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		31EB944B198B2202002DF0BE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		31EB944D198B24CF002DF0BE /* Truth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Truth.mp3; sourceTree = "<group>"; };
+		31EB9450198C1E11002DF0BE /* noMercy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMercy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB944C198B2202002DF0BE /* Accelerate.framework in Frameworks */,
+				31EB943E198ACE41002DF0BE /* QuartzCore.framework in Frameworks */,
+				31EB9430198ABA5F002DF0BE /* AppKit.framework in Frameworks */,
+				31EB9429198AB7BF002DF0BE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 		31EB93FC198AB1AC002DF0BE = {
 			isa = PBXGroup;
 			children = (
+				31EB944F198C035D002DF0BE /* Frameworks */,
 				31EB9407198AB1AC002DF0BE /* MusicVisualizer */,
 				31EB941B198AB1AC002DF0BE /* MusicVisualizerTests */,
 				31EB9406198AB1AC002DF0BE /* Products */,
@@ -78,6 +110,13 @@
 			children = (
 				31EB940C198AB1AC002DF0BE /* AppDelegate.h */,
 				31EB940D198AB1AC002DF0BE /* AppDelegate.m */,
+				31EB9434198ABD0D002DF0BE /* DJRootViewController.h */,
+				31EB9435198ABD0D002DF0BE /* DJRootViewController.mm */,
+				31EB9436198ABD0D002DF0BE /* DJRootViewController.xib */,
+				31EB943F198ADDAC002DF0BE /* VisualizerView.h */,
+				31EB9440198ADDAC002DF0BE /* VisualizerView.mm */,
+				31EB944A198AECD3002DF0BE /* MeterTable */,
+				31EB9444198AE134002DF0BE /* Resources */,
 				31EB940F198AB1AC002DF0BE /* Images.xcassets */,
 				31EB9411198AB1AC002DF0BE /* MainMenu.xib */,
 				31EB9408198AB1AC002DF0BE /* Supporting Files */,
@@ -109,6 +148,37 @@
 				31EB941D198AB1AC002DF0BE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31EB9444198AE134002DF0BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31EB9450198C1E11002DF0BE /* noMercy.png */,
+				31EB9445198AE8A8002DF0BE /* particleTexture.png */,
+				31EB944D198B24CF002DF0BE /* Truth.mp3 */,
+				31EB943B198AC3A9002DF0BE /* AllSheWants.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		31EB944A198AECD3002DF0BE /* MeterTable */ = {
+			isa = PBXGroup;
+			children = (
+				31EB9447198AECCF002DF0BE /* MeterTable.cpp */,
+				31EB9448198AECCF002DF0BE /* MeterTable.h */,
+			);
+			name = MeterTable;
+			sourceTree = "<group>";
+		};
+		31EB944F198C035D002DF0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EB944B198B2202002DF0BE /* Accelerate.framework */,
+				31EB943D198ACE41002DF0BE /* QuartzCore.framework */,
+				31EB942F198ABA5F002DF0BE /* AppKit.framework */,
+				31EB9428198AB7BF002DF0BE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB944E198B24CF002DF0BE /* Truth.mp3 in Resources */,
 				31EB9410198AB1AC002DF0BE /* Images.xcassets in Resources */,
+				31EB9446198AE8A8002DF0BE /* particleTexture.png in Resources */,
+				31EB9451198C1E11002DF0BE /* noMercy.png in Resources */,
+				31EB9438198ABD0D002DF0BE /* DJRootViewController.xib in Resources */,
 				31EB9413198AB1AC002DF0BE /* MainMenu.xib in Resources */,
+				31EB943C198AC3A9002DF0BE /* AllSheWants.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB9441198ADDAC002DF0BE /* VisualizerView.mm in Sources */,
+				31EB9449198AECCF002DF0BE /* MeterTable.cpp in Sources */,
 				31EB940E198AB1AC002DF0BE /* AppDelegate.m in Sources */,
+				31EB9437198ABD0D002DF0BE /* DJRootViewController.mm in Sources */,
 				31EB940B198AB1AC002DF0BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
